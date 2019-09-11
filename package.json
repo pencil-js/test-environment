@@ -1,6 +1,6 @@
 {
     "name": "@pencil.js/test-environment",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "Test environment for Pencil.js",
     "main": "index.js",
     "scripts": {
