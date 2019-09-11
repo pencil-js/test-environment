@@ -1,0 +1,28 @@
+{
+    "name": "@pencil.js/test-environment",
+    "version": "0.1.0",
+    "description": "Test environment for Pencil.js",
+    "main": "index.js",
+    "scripts": {
+        "test": "ava"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pencil-js/test-environment.git"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "keywords": [
+        "Pencil.js"
+    ],
+    "author": "GMartigny",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/pencil-js/test-environment/issues"
+    },
+    "homepage": "https://github.com/pencil-js/test-environment#readme",
+    "dependencies": {
+        "browser-env": "^3.2.6"
+    }
+}
