@@ -52,6 +52,8 @@ window.CanvasRenderingContext2D = class CanvasRenderingContext2D {
 
     setTransform () {}
 
+    drawImage () {}
+
     measureText () {
         return {
             width: 5,
