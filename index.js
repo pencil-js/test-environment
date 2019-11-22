@@ -36,7 +36,13 @@ window.CanvasRenderingContext2D = class CanvasRenderingContext2D {
 
     fillRect () {}
 
-    getImageData () {}
+    getImageData () {
+        return {
+            width: 5,
+            height: 10,
+            data: new Uint8ClampedArray(),
+        }
+    }
 
     putImageData () {}
 
