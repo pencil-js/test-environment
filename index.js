@@ -71,3 +71,14 @@ window.HTMLCanvasElement.prototype.getContext = function getContext () {
     return new window.CanvasRenderingContext2D(this);
 };
 window.HTMLCanvasElement.prototype.toDataURL = type => type;
+
+if (typeof window.URL.createObjectURL === "undefined") {
+    Object.defineProperty(window.URL, "createObjectURL", {
+        value: () => "",
+    });
+}
+if (typeof window.URL.revokeObjectURL === "undefined") {
+    Object.defineProperty(window.URL, "revokeObjectURL", {
+        value: () => {},
+    });
+}
