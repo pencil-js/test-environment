@@ -23,6 +23,6 @@
     },
     "homepage": "https://github.com/pencil-js/test-environment#readme",
     "dependencies": {
-        "browser-env": "^3.2.6"
+        "browser-env": "^3.3.0"
     }
 }
