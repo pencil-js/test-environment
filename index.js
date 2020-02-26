@@ -56,6 +56,8 @@ window.CanvasRenderingContext2D = class CanvasRenderingContext2D {
 
     scale () {}
 
+    clip () {}
+
     setTransform () {}
 
     drawImage () {}
