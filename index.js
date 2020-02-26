@@ -67,6 +67,10 @@ window.CanvasRenderingContext2D = class CanvasRenderingContext2D {
             width: 5,
         };
     }
+
+    isPointInPath () {}
+
+    isPointInStroke () {}
 };
 
 window.HTMLCanvasElement.prototype.getContext = function getContext () {
