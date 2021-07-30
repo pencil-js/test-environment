@@ -6,7 +6,7 @@ It's compatible with all existing test-runners (AVA, Jest, Mocha ...)
 
 ## Installation
 
-    npm i --save-dev @pencil.js/test-environment
+    npm install --save-dev @pencil.js/test-environment
 
 ## Usage
 
